@@ -1,0 +1,133 @@
+/* Element Selector */
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    margin:20px;
+}
+
+/* ID Selector */
+
+#main-heading{
+    color:#2c3e50;
+}
+
+/* Class Selector */
+
+.subtitle{
+    color:#666;
+}
+
+/* Add Expense Section */
+
+.add-expense-section{
+    background:#dff6ff;
+    padding:20px;
+    border-radius:8px;
+    margin-bottom:25px;
+}
+
+/* Expenses Section */
+
+.expenses-section{
+    background:#ffffff;
+    padding:20px;
+    border-radius:8px;
+}
+
+/* Form */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:12px;
+    font-weight:bold;
+}
+
+input,
+select{
+    padding:10px;
+    margin-top:5px;
+}
+
+/* Button */
+
+button{
+    margin-top:20px;
+    padding:12px;
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#218838;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th,
+td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+th{
+    background:#2c3e50;
+    color:white;
+}
+
+tbody tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+tbody tr:hover{
+    background:#d9f5d9;
+}
+
+/* Advanced CSS Selectors */
+
+/* Descendant Selector */
+
+.expenses-section td{
+    color:#333;
+}
+
+/* Direct Child Selector */
+
+.add-expense-section > form{
+    background:#fafafa;
+    padding:15px;
+    border-radius:5px;
+}
+
+/* Negation Selector */
+
+input:not([type="button"]){
+    border:1px solid #999;
+}
+
+/* Focus Selector */
+
+input:focus,
+select:focus{
+    border:2px solid blue;
+    outline:none;
+}
+
+/* Position Selector */
+
+tr:first-child{
+    font-weight:bold;
+}
